@@ -1,5 +1,95 @@
+body {
+    margin-bottom: 15px;
+}
+
+.data {
+    margin: 15px;
+    padding: 0px;
+}
+
 #arrow {
     position: fixed;
     top: 92%;
     left: 85%;
+}
+
+.paragraph-text {
+    text-align: justify;
+}
+
+.section-link {
+    text-align: center;
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 1px;
+    padding: 5px;
+}
+
+.section-link:hover{
+    background-color: lightgray;
+}
+
+.main-section {
+    background-color: whitesmoke;
+}
+
+.alternativa {
+    border-top-style: solid;
+    border-width: 0.5px;
+}
+
+#code {
+    visibility: hidden;
+    height: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.license-text {
+    margin: 10px;
+}
+
+@media (min-width: 1280px) {
+    #arrow {
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+
+    #nav-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav {
+        position: fixed;
+        width: 30%;
+        margin: 10px;
+    }
+
+    #div-main {
+        width: 70%;
+        margin-left: 35%;
+    }
+
+    p {
+        padding: 15px;
+    }
+
+    footer {
+        width: 65%;
+        margin-left: 35%;
+    }
+
+    .license-text {
+        margin: 5px;
+        padding: 0px;
+    }
 }
